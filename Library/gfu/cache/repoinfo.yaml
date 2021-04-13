@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-04-10T18:15:22.697+01:00
-  initializedAtString: 2021-04-10T18:15:22.697+01:00
+  lastUpdatedAtString: 2021-04-13T18:11:03.319+01:00
+  initializedAtString: 2021-04-13T18:11:03.319+01:00
   currentGitRemote:
     name: origin
-    url: https://github.com/andresalvarezolmo/WOR.git
+    url: https://github.com/andresalvarezolmo/World-Of-Recipes.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: main
+    name: master
     remote:
       name: origin
-      url: https://github.com/andresalvarezolmo/WOR.git
-    trackingBranch: main
+      url: https://github.com/andresalvarezolmo/World-Of-Recipes.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/andresalvarezolmo/WOR.git
+    url: https://github.com/andresalvarezolmo/World-Of-Recipes.git
   currentHead: 
