@@ -59,8 +59,8 @@ public class DragSystem : MonoBehaviour
     {
         isMoving = false;
         //if sprite has been dragged into the dragArea then mark it as selected
-        if(Mathf.Abs(this.transform.localPosition.x - dragArea.transform.localPosition.x) <= 3 && 
-           Mathf.Abs(this.transform.localPosition.y - dragArea.transform.localPosition.y) <= 3){
+        if(Mathf.Abs(this.transform.localPosition.x - dragArea.transform.localPosition.x) <= 2 && 
+           Mathf.Abs(this.transform.localPosition.y - dragArea.transform.localPosition.y) <= 2){
             //this.transform.localPosition = new Vector3(dragArea.transform.localPosition.x, dragArea.transform.localPosition.y, dragArea.transform.localPosition.z);
             sprite.color = new Color(0.3f, 0.4f, 0.6f);
             Debug.Log("SELECTED"); 
