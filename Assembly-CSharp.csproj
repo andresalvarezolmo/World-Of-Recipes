@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DragSystem.cs" />
+    <Compile Include="Assets\Scripts\CounterManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
