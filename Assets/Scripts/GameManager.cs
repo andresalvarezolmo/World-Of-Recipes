@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,15 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int correctAppliances = 0;
     int userCorrectAppliances = 0;
+
+    //text variables
+    int ingredientCounter = 0;
+    int applianceCounter = 0;
+    public Text IngredientDisplayText;
+    public Text ApplianceDisplayText;
+
+    //submit button
+    public SpriteRenderer submitButton;
 
     // Start is called before the first frame update
     void Start()
@@ -36,27 +46,75 @@ public class GameManager : MonoBehaviour
             Appliances[j] = ApplianceHolder.transform.GetChild(j).gameObject;
             Debug.Log(ApplianceHolder.transform.GetChild(j).gameObject);
         }
+
     }
+
+    public void checkAmountofIngredients()
+    {
+        if(ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
+        {
+            Debug.Log("User can submit");
+            submitButton.color = new Color(255, 255, 255, 255);
+
+        }
+    }
+    public void checkUserSubmission()
+    {
+
+    }
+
 
     public void selectedCorrectIngredient()
     {
         userCorrectIngredients++;
         Debug.Log("Correct ingredient selected. Amount: " + userCorrectIngredients);
+        checkAmountofIngredients();
     }
     public void unSelectedCorrectIngredient()
     {
         userCorrectIngredients--;
         Debug.Log("Correct ingredient unselected. Amount: " + userCorrectIngredients);
+        checkAmountofIngredients();
     }
 
     public void selectedCorrectAppliance()
     {
         userCorrectAppliances++;
         Debug.Log("Correct Appliance selected. Amount: " + userCorrectAppliances);
+        checkAmountofIngredients();
     }
+
     public void unSelectedCorrectAppliance()
     {
         userCorrectAppliances--;
         Debug.Log("Correct Appliance unselected. Amount: " + userCorrectAppliances);
+        checkAmountofIngredients();
     }
+
+    public void RaiseIngredientCounter(int s)
+    {
+        ingredientCounter += s;
+        //Debug.Log(ingredientCounter);
+        IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/"  + correctIngredients;
+    }
+    public void DecreaseIngredientCounter(int s)
+    {
+        ingredientCounter -= s;
+        //Debug.Log(ingredientCounter);
+        IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/" + correctIngredients;
+    }
+
+    public void RaiseApplianceCounter(int s)
+    {
+        applianceCounter += s;
+        //Debug.Log(applianceCounter);
+        ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
+    }
+    public void DecreaseApplianceCounter(int s)
+    {
+        applianceCounter -= s;
+        //Debug.Log(applianceCounter);
+        ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
+    }
+
 }

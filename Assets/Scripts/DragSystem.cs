@@ -74,7 +74,8 @@ public class DragSystem : MonoBehaviour
 
             if (this.type == "ingredient")
             {
-                CounterManager.counterManager.DecreaseIngredientCounter(1);
+                gameManager.DecreaseIngredientCounter(1);
+                //CounterManager.counterManager.DecreaseIngredientCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Deselected correct Ingredient");
@@ -83,8 +84,8 @@ public class DragSystem : MonoBehaviour
             }
             else if (this.type == "appliance")
             {
-                CounterManager.counterManager.DecreaseApplianceCounter(1);
-                //CounterManager.counterManager.RaiseIngredientCounter(1);
+                gameManager.DecreaseApplianceCounter(1);
+                //CounterManager.counterManager.DecreaseApplianceCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Deselected correct Appliance");
@@ -109,7 +110,8 @@ public class DragSystem : MonoBehaviour
             //check type of selected item
             if (this.type == "ingredient")
             {
-                CounterManager.counterManager.RaiseIngredientCounter(1);
+                gameManager.RaiseIngredientCounter(1);
+                //CounterManager.counterManager.RaiseIngredientCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Selected correct Ingredient");
@@ -118,7 +120,8 @@ public class DragSystem : MonoBehaviour
             }
             else if (this.type == "appliance")
             {
-                CounterManager.counterManager.RaiseApplianceCounter(1);
+                gameManager.RaiseApplianceCounter(1);
+                //CounterManager.counterManager.RaiseApplianceCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Selected correct Appliance");

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CounterManager : MonoBehaviour
 {
+    /*
     public static CounterManager counterManager;
     int ingredientCounter = 0;
     int applianceCounter = 0;
@@ -46,4 +47,5 @@ public class CounterManager : MonoBehaviour
         //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/x";
     }
+    */
 }
