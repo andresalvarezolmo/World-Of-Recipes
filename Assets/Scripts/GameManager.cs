@@ -55,14 +55,32 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("User can submit");
             submitButton.color = new Color(255, 255, 255, 255);
-
+        }
+        else
+        {
+            submitButton.color = new Color(255, 0, 0, 255);
         }
     }
-    public void checkUserSubmission()
+
+    public void checkSolution()
     {
+        if(ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
+        {
+            if (userCorrectIngredients == correctIngredients && userCorrectAppliances == correctAppliances)
+            {
+                Debug.Log("Correct solution");
+            }
+            else
+            {
+                Debug.Log("Incorrect solution");
+            }
+        }
+        else
+        {
+            Debug.Log("Solution does not meet the requirements");
+        }
 
     }
-
 
     public void selectedCorrectIngredient()
     {
@@ -116,5 +134,6 @@ public class GameManager : MonoBehaviour
         //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
     }
+
 
 }
