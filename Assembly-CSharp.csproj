@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\DragSystem.cs" />
     <Compile Include="Assets\Scripts\CounterManager.cs" />
     <Compile Include="Assets\Scripts\submitScript.cs" />
+    <Compile Include="Assets\Scripts\dishPictureScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
