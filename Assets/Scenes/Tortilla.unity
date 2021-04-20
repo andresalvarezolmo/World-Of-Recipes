@@ -2698,6 +2698,7 @@ MonoBehaviour:
   IngredientDisplayText: {fileID: 1264756422}
   ApplianceDisplayText: {fileID: 1051955302}
   submitButton: {fileID: 159504543}
+  nextLevel: 1
 --- !u!1 &1727928273
 GameObject:
   m_ObjectHideFlags: 0

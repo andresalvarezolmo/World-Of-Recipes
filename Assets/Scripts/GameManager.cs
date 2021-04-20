@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour
     //submit button
     public SpriteRenderer submitButton;
 
+    //levelmanager
+    public int nextLevel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +72,16 @@ public class GameManager : MonoBehaviour
             if (userCorrectIngredients == correctIngredients && userCorrectAppliances == correctAppliances)
             {
                 Debug.Log("Congratulations, correct solution");
+                if (nextLevel > PlayerPrefs.GetInt("LevelReached"))
+                {
+                    PlayerPrefs.SetInt("LevelReached", nextLevel);
+                    Debug.Log("Next level unlocked");
+                }
+                else
+                {
+                    Debug.Log("Next had already been unlocked");
+                }
+
             }
             else
             {
