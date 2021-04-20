@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-18T14:38:42.806+01:00
-  initializedAtString: 2021-04-18T12:04:33.268+01:00
+  lastUpdatedAtString: 2021-04-20T13:18:03.504+01:00
+  initializedAtString: 2021-04-20T13:06:10.644+01:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assembly-CSharp.csproj
@@ -22,15 +22,81 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\dishPictureScript.cs
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\dishPictureScript.cs
-    projectPath: Assets\Scripts\dishPictureScript.cs
+  - path: Assets\Scenes\LevelExplorer.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\LevelExplorer.unity
+    projectPath: Assets\Scenes\LevelExplorer.unity
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Sprites\buttons\tortilla.jpg
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\buttons\tortilla.jpg
-    projectPath: Assets\Sprites\buttons\tortilla.jpg
+  - path: Assets\Scenes\Menu.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Menu.unity
+    projectPath: Assets\Scenes\Menu.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Tortilla.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Tortilla.unity
+    projectPath: Assets\Scenes\Tortilla.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GameManager.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\GameManager.cs
+    projectPath: Assets\Scripts\GameManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\LevelButtons.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\LevelButtons.cs
+    projectPath: Assets\Scripts\LevelButtons.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\LevelManagerScript.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\LevelManagerScript.cs
+    projectPath: Assets\Scripts\LevelManagerScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\MenuScript.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\MenuScript.cs
+    projectPath: Assets\Scripts\MenuScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\submitScript.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\submitScript.cs
+    projectPath: Assets\Scripts\submitScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sprites\flag\Flag_of_France.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\flag\Flag_of_France.png
+    projectPath: Assets\Sprites\flag\Flag_of_France.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\flag\Flag_of_India.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\flag\Flag_of_India.png
+    projectPath: Assets\Sprites\flag\Flag_of_India.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\flag\Flag_of_Japan.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\flag\Flag_of_Japan.png
+    projectPath: Assets\Sprites\flag\Flag_of_Japan.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\flag\Flag_of_Mexico.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\flag\Flag_of_Mexico.png
+    projectPath: Assets\Sprites\flag\Flag_of_Mexico.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\flag\Flag_of_Turkey.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\flag\Flag_of_Turkey.png
+    projectPath: Assets\Sprites\flag\Flag_of_Turkey.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -39,7 +105,1142 @@ MonoBehaviour:
     projectPath: Assets\Sprites\SampleScene.unity
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Assets\TextMesh Pro\ColorGradient.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\ColorGradient.asset
+    projectPath: Assets\TextMesh Pro\ColorGradient.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Documentation\TextMesh
+      Pro User Guide 2016.pdf
+    projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Anton OFL.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Anton OFL.txt
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Anton OFL.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Anton.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Anton.ttf
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Anton.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Bangers - OFL.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Bangers - OFL.txt
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Bangers - OFL.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Bangers.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Bangers.ttf
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Bangers.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Electronic Highway Sign.TTF
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Electronic Highway Sign.TTF
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Electronic Highway Sign.TTF
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Oswald-Bold - OFL.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Oswald-Bold - OFL.txt
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Oswald-Bold - OFL.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Oswald-Bold.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Oswald-Bold.ttf
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Oswald-Bold.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Fonts\Roboto-Bold.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Fonts\Roboto-Bold.ttf
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Fonts\Roboto-Bold.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Materials\Crate - Surface Shader
+      Scene.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Materials\Crate - Surface Shader Scene.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Materials\Crate - Surface
+      Shader Scene.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Logo Scene.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Materials\Ground - Logo Scene.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Logo Scene.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Surface Shader
+      Scene.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Materials\Ground - Surface Shader Scene.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Surface
+      Shader Scene.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Materials\Small Crate_diffuse.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Materials\Small Crate_diffuse.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Materials\Small Crate_diffuse.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Prefabs\Text Popup.prefab
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Prefabs\Text Popup.prefab
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Prefabs\Text Popup.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab 1.prefab
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Prefabs\TextMeshPro - Prefab 1.prefab
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab
+      1.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab 2.prefab
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Prefabs\TextMeshPro - Prefab 2.prefab
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab
+      2.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Blue
+      to Purple - Vertical.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Color Gradient Presets\Blue to Purple - Vertical.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Blue
+      to Purple - Vertical.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Dark
+      to Light Green - Vertical.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Color Gradient Presets\Dark to Light Green - Vertical.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Dark
+      to Light Green - Vertical.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Light
+      to Dark Green - Vertical.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Color Gradient Presets\Light to Dark Green - Vertical.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Light
+      to Dark Green - Vertical.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Yellow
+      to Orange - Vertical.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Color Gradient Presets\Yellow to Orange - Vertical.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Yellow
+      to Orange - Vertical.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Drop Shadow.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Anton SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Drop Shadow.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Outline.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Anton SDF - Outline.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Outline.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Sunny Days.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Anton SDF - Sunny Days.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF - Sunny Days.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Anton SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF - Drop Shadow.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF - Drop Shadow.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF - Outline.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF - Outline.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF - Outline.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF Glow.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF Glow.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF Glow.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF Logo.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF Logo.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF Logo.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Electronic Highway Sign SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Metalic Green.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\LiberationSans SDF - Metalic Green.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Metalic Green.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Overlay.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\LiberationSans SDF - Overlay.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Overlay.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Soft Mask.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\LiberationSans SDF - Soft Mask.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\LiberationSans
+      SDF - Soft Mask.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Oswald Bold SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF - Drop Shadow.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Roboto-Bold SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF - Drop Shadow.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF - Surface.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Roboto-Bold SDF - Surface.mat
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF - Surface.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\Default Sprite
+      Asset.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Sprite Assets\Default Sprite Asset.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\Default
+      Sprite Asset.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\DropCap Numbers.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Sprite Assets\DropCap Numbers.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\DropCap
+      Numbers.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\01-  Single Line TextMesh
+      Pro.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\01-  Single Line TextMesh Pro.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\01-  Single Line TextMesh
+      Pro.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\02 - Multi-line TextMesh Pro.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\02 - Multi-line TextMesh Pro.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\02 - Multi-line TextMesh
+      Pro.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\03 - Line Justification.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\03 - Line Justification.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\03 - Line Justification.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\04 - Word Wrapping.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\04 - Word Wrapping.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\04 - Word Wrapping.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\05 - Style Tags.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\06 - Extra Rich Text Examples.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\06 - Extra Rich Text Examples.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\06 - Extra Rich Text
+      Examples.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\07 - Superscript & Subscript
+      Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\07 - Superscript & Subscript Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\07 - Superscript &
+      Subscript Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\08 - Improved Text Alignment.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\08 - Improved Text Alignment.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\08 - Improved Text
+      Alignment.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\09 - Margin Tag Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\10 - Bullets & Numbered List
+      Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\10 - Bullets & Numbered List Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\10 - Bullets & Numbered
+      List Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\11 - The Style Tag.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\11 - The Style Tag.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\11 - The Style Tag.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\12 - Link Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\12 - Link Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\12 - Link Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\12a - Text Interactions.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\13 - Soft Hyphenation.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\13 - Soft Hyphenation.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\13 - Soft Hyphenation.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\14 - Multi Font & Sprites.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\14 - Multi Font & Sprites.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\14 - Multi Font & Sprites.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics
+      & Sprites.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\16 - Linked text overflow
+      mode example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\16 - Linked text overflow mode example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\16 - Linked text overflow
+      mode example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\17 - Old Computer Terminal.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\17 - Old Computer Terminal.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\17 - Old Computer Terminal.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking
+      & Layout.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking
+      & Layout.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\19 - Masking Texture & Soft
+      Mask.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\19 - Masking Texture & Soft Mask.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\19 - Masking Texture
+      & Soft Mask.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\20 - Input Field with Scrollbar.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\20 - Input Field with Scrollbar.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\20 - Input Field with
+      Scrollbar.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\21 - Script Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\21 - Script Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\21 - Script Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\22 - Basic Scripting Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\22 - Basic Scripting Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\22 - Basic Scripting
+      Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\23 - Animating Vertex Attributes.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\23 - Animating Vertex Attributes.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\23 - Animating Vertex
+      Attributes.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\24 - Surface Shader Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader
+      Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\25 - Sunny Days Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\25 - Sunny Days Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\25 - Sunny Days Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\26 - Dropdown Placeholder
+      Example.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\26 - Dropdown Placeholder Example.unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\26 - Dropdown Placeholder
+      Example.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scenes\Benchmark (Floating Text).unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scenes\Benchmark (Floating Text).unity
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scenes\Benchmark (Floating
+      Text).unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\Benchmark01.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\Benchmark01_UGUI.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\Benchmark02.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\Benchmark03.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\Benchmark04.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\CameraController.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\ChatController.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\DropdownSample.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\EnvMapAnimator.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\ObjectSpin.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\ShaderPropAnimator.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\SimpleScript.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\SkewTextExample.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TeleType.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TextConsoleSimulator.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TextMeshProFloatingText.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TextMeshSpawner.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_DigitValidator.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_ExampleScript_01.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_FrameRateCounter.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_PhoneNumberValidator.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_TextEventCheck.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_TextEventHandler.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_TextInfoDebugTool.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_TextSelector_A.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_TextSelector_B.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMP_UiFrameRateCounter.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\TMPro_InstructionOverlay.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\VertexColorCycler.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\VertexJitter.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\VertexShakeA.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\VertexShakeB.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\VertexZoom.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Scripts\WarpTextExample.cs
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Sprites\Default Sprites.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Sprites\Default Sprites.png
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Sprites\Default Sprites.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Sprites\DropCap Numbers.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Sprites\DropCap Numbers.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Sprites\DropCap Numbers.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Brushed Metal 3.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Brushed Metal 3.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Brushed Metal 3.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Floor Cement.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Floor Cement.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Floor Cement.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Floor Tiles 1 - diffuse.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Floor Tiles 1 - diffuse.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Floor Tiles 1 - diffuse.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Fruit Jelly (B&W).jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Fruit Jelly (B&W).jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Fruit Jelly (B&W).jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Diagonal (Color).jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Gradient Diagonal (Color).jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Diagonal
+      (Color).jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Horizontal (Color).jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Gradient Horizontal (Color).jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Horizontal
+      (Color).jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Vertical (Color).jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Gradient Vertical (Color).jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Gradient Vertical
+      (Color).jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Mask Zig-n-Zag.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Mask Zig-n-Zag.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Mask Zig-n-Zag.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Small Crate_diffuse.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Small Crate_diffuse.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Small Crate_diffuse.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Small Crate_normal.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Small Crate_normal.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Small Crate_normal.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Sunny Days - Seamless.jpg
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Sunny Days - Seamless.jpg
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Sunny Days - Seamless.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Text Overflow - Linked Text
+      Image 1.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Text Overflow - Linked Text Image 1.png
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Text Overflow - Linked
+      Text Image 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Text Overflow - Linked Text
+      UI Screenshot.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Text Overflow - Linked Text UI Screenshot.png
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Text Overflow - Linked
+      Text UI Screenshot.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Circle.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Wipe Pattern - Circle.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Circle.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Diagonal.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Wipe Pattern - Diagonal.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Diagonal.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Radial Double.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Wipe Pattern - Radial Double.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Radial
+      Double.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Radial Quad.psd
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Textures\Wipe Pattern - Radial Quad.psd
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Textures\Wipe Pattern - Radial
+      Quad.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Fonts\LiberationSans
+      - OFL.txt
+    projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+    projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop
+      Shadow.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Fonts
+      & Materials\LiberationSans SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Drop Shadow.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Fonts
+      & Materials\LiberationSans SDF - Fallback.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Fonts
+      & Materials\LiberationSans SDF - Outline.mat
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Outline.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Fonts
+      & Materials\LiberationSans SDF.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\LineBreaking
+      Following Characters.txt
+    projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\LineBreaking
+      Leading Characters.txt
+    projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Sprite
+      Assets\EmojiOne.asset
+    projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Style
+      Sheets\Default Style Sheet.asset
+    projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\TMP
+      Settings.asset
+    projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF
+      Overlay.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF
+      SSD.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+      Masking.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+      Overlay.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+      SSD.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+    projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMPro.cginc
+    projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+    projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+    projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+    projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Sprites\EmojiOne
+      Attribution.txt
+    projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Sprites\EmojiOne.json
+    projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Sprites\EmojiOne.png
+    projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -55,6 +1256,18 @@ MonoBehaviour:
   - path: Library\EditorInstance.json
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\expandedItems
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -100,6 +1313,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -112,6 +1331,258 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\00abb56d941886dba980493487f17341.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\00abb56d941886dba980493487f17341.bin
+    projectPath: Library\ShaderCache\0\00abb56d941886dba980493487f17341.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0492c18902bdcb0017ece27c87ec94f5.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\0492c18902bdcb0017ece27c87ec94f5.bin
+    projectPath: Library\ShaderCache\0\0492c18902bdcb0017ece27c87ec94f5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\075bdfc5307a0e5031abda80f3831d6f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\075bdfc5307a0e5031abda80f3831d6f.bin
+    projectPath: Library\ShaderCache\0\075bdfc5307a0e5031abda80f3831d6f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0b4bf88f84710bddf15503aa91362b68.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\0b4bf88f84710bddf15503aa91362b68.bin
+    projectPath: Library\ShaderCache\0\0b4bf88f84710bddf15503aa91362b68.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\12be539bdc99853abd8233cd511dc0c8.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\1\12be539bdc99853abd8233cd511dc0c8.bin
+    projectPath: Library\ShaderCache\1\12be539bdc99853abd8233cd511dc0c8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\194c0cfeb1b7a933969c29fa60a20bf9.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\1\194c0cfeb1b7a933969c29fa60a20bf9.bin
+    projectPath: Library\ShaderCache\1\194c0cfeb1b7a933969c29fa60a20bf9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1cfeff8a0324715ac3aef08bba9beb2f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\1\1cfeff8a0324715ac3aef08bba9beb2f.bin
+    projectPath: Library\ShaderCache\1\1cfeff8a0324715ac3aef08bba9beb2f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1fbdd907a997243ded25e7f8e97eea01.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\1\1fbdd907a997243ded25e7f8e97eea01.bin
+    projectPath: Library\ShaderCache\1\1fbdd907a997243ded25e7f8e97eea01.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\22278c98d11e8241351be6b0cd24c036.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\2\22278c98d11e8241351be6b0cd24c036.bin
+    projectPath: Library\ShaderCache\2\22278c98d11e8241351be6b0cd24c036.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\26eff26a2aaf51e6b86f611ad35ee491.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\2\26eff26a2aaf51e6b86f611ad35ee491.bin
+    projectPath: Library\ShaderCache\2\26eff26a2aaf51e6b86f611ad35ee491.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\39ac70866040a1f4292b9a9de44a8361.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\3\39ac70866040a1f4292b9a9de44a8361.bin
+    projectPath: Library\ShaderCache\3\39ac70866040a1f4292b9a9de44a8361.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3b2bc984dcf182ce9cbff9a492ff0f4c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\3\3b2bc984dcf182ce9cbff9a492ff0f4c.bin
+    projectPath: Library\ShaderCache\3\3b2bc984dcf182ce9cbff9a492ff0f4c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\46b6c2201c6c314499157ed7f6f56866.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\4\46b6c2201c6c314499157ed7f6f56866.bin
+    projectPath: Library\ShaderCache\4\46b6c2201c6c314499157ed7f6f56866.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\56ba7876d6bf02f03c9185549917bd8c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\5\56ba7876d6bf02f03c9185549917bd8c.bin
+    projectPath: Library\ShaderCache\5\56ba7876d6bf02f03c9185549917bd8c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\586c72f12a2f7fe38e0e7ff2b54a9db6.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\5\586c72f12a2f7fe38e0e7ff2b54a9db6.bin
+    projectPath: Library\ShaderCache\5\586c72f12a2f7fe38e0e7ff2b54a9db6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\64270eb07c49e58321fd22398561b8a8.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\6\64270eb07c49e58321fd22398561b8a8.bin
+    projectPath: Library\ShaderCache\6\64270eb07c49e58321fd22398561b8a8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6ffe37a313993af7518c09b1853304e3.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\6\6ffe37a313993af7518c09b1853304e3.bin
+    projectPath: Library\ShaderCache\6\6ffe37a313993af7518c09b1853304e3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\73c96aeceb62cd377bee4680b65612b1.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\7\73c96aeceb62cd377bee4680b65612b1.bin
+    projectPath: Library\ShaderCache\7\73c96aeceb62cd377bee4680b65612b1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\791d519e2bfb4a785a70544a07ed3e9c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\7\791d519e2bfb4a785a70544a07ed3e9c.bin
+    projectPath: Library\ShaderCache\7\791d519e2bfb4a785a70544a07ed3e9c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8586f1d908c7c044b4b1f14ef2bffe9c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\8\8586f1d908c7c044b4b1f14ef2bffe9c.bin
+    projectPath: Library\ShaderCache\8\8586f1d908c7c044b4b1f14ef2bffe9c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8891943d38256dd63e47b6c84f3bfa28.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\8\8891943d38256dd63e47b6c84f3bfa28.bin
+    projectPath: Library\ShaderCache\8\8891943d38256dd63e47b6c84f3bfa28.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8940e989b63da6d211f7fc3a61447007.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\8\8940e989b63da6d211f7fc3a61447007.bin
+    projectPath: Library\ShaderCache\8\8940e989b63da6d211f7fc3a61447007.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8ef78ba3679f661e9f02ec825b5934a6.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\8\8ef78ba3679f661e9f02ec825b5934a6.bin
+    projectPath: Library\ShaderCache\8\8ef78ba3679f661e9f02ec825b5934a6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8fb9d187f80b12c1ae33a3de2560fb6a.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\8\8fb9d187f80b12c1ae33a3de2560fb6a.bin
+    projectPath: Library\ShaderCache\8\8fb9d187f80b12c1ae33a3de2560fb6a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\976477ffeed337fc2b6f3c6210f34534.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\9\976477ffeed337fc2b6f3c6210f34534.bin
+    projectPath: Library\ShaderCache\9\976477ffeed337fc2b6f3c6210f34534.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9a65da8f32bd61d57fe5f3f3390d5637.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\9\9a65da8f32bd61d57fe5f3f3390d5637.bin
+    projectPath: Library\ShaderCache\9\9a65da8f32bd61d57fe5f3f3390d5637.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9aed3c95a4d9abd470b52e39224c6a4d.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\9\9aed3c95a4d9abd470b52e39224c6a4d.bin
+    projectPath: Library\ShaderCache\9\9aed3c95a4d9abd470b52e39224c6a4d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\ae3a43953a63b0a92079439dce89c74f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\a\ae3a43953a63b0a92079439dce89c74f.bin
+    projectPath: Library\ShaderCache\a\ae3a43953a63b0a92079439dce89c74f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b5f5a87ad2d30fb577897dc2ce965c6c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\b\b5f5a87ad2d30fb577897dc2ce965c6c.bin
+    projectPath: Library\ShaderCache\b\b5f5a87ad2d30fb577897dc2ce965c6c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b8b479a12f5beb9fbbd702b417136a6f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\b\b8b479a12f5beb9fbbd702b417136a6f.bin
+    projectPath: Library\ShaderCache\b\b8b479a12f5beb9fbbd702b417136a6f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\bdfe6a1d21091f36f60bd8c8428950b4.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\b\bdfe6a1d21091f36f60bd8c8428950b4.bin
+    projectPath: Library\ShaderCache\b\bdfe6a1d21091f36f60bd8c8428950b4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c211a2e0b237ceb3391ad5d099d3890f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\c\c211a2e0b237ceb3391ad5d099d3890f.bin
+    projectPath: Library\ShaderCache\c\c211a2e0b237ceb3391ad5d099d3890f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c8d882e832e976e419cf246c56e50e07.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\c\c8d882e832e976e419cf246c56e50e07.bin
+    projectPath: Library\ShaderCache\c\c8d882e832e976e419cf246c56e50e07.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d5a6ae9a56e060384b311817ae94d5e8.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\d\d5a6ae9a56e060384b311817ae94d5e8.bin
+    projectPath: Library\ShaderCache\d\d5a6ae9a56e060384b311817ae94d5e8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e2c344cdbbf4df3f93ccd01d0f4a0cc6.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\e2c344cdbbf4df3f93ccd01d0f4a0cc6.bin
+    projectPath: Library\ShaderCache\e\e2c344cdbbf4df3f93ccd01d0f4a0cc6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e7dfde56816a3fb724755ed392f58f49.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\e7dfde56816a3fb724755ed392f58f49.bin
+    projectPath: Library\ShaderCache\e\e7dfde56816a3fb724755ed392f58f49.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\eb42738cbd9f8b594f356e9601179acf.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\eb42738cbd9f8b594f356e9601179acf.bin
+    projectPath: Library\ShaderCache\e\eb42738cbd9f8b594f356e9601179acf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ebf288ad20a79f0d7c592ea378c1f8bf.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\ebf288ad20a79f0d7c592ea378c1f8bf.bin
+    projectPath: Library\ShaderCache\e\ebf288ad20a79f0d7c592ea378c1f8bf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ecabc09ff124b09b988b2c9e967c19d7.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\ecabc09ff124b09b988b2c9e967c19d7.bin
+    projectPath: Library\ShaderCache\e\ecabc09ff124b09b988b2c9e967c19d7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\f\f0f44c107d453dcf1e009397cd5f757f.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\f\f0f44c107d453dcf1e009397cd5f757f.bin
+    projectPath: Library\ShaderCache\f\f0f44c107d453dcf1e009397cd5f757f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\SourceAssetDB
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -130,9 +1601,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -154,51 +1625,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\UnityTempFile-086f57ee9cf0ee4408f747790a24e372
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-086f57ee9cf0ee4408f747790a24e372
-    projectPath: Temp\UnityTempFile-086f57ee9cf0ee4408f747790a24e372
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-0e086bfa1dbaf9c4fa1ce61d331677ad
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-0e086bfa1dbaf9c4fa1ce61d331677ad
-    projectPath: Temp\UnityTempFile-0e086bfa1dbaf9c4fa1ce61d331677ad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-158877bc6adcf3743b670ddfed1c9b62
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-158877bc6adcf3743b670ddfed1c9b62
-    projectPath: Temp\UnityTempFile-158877bc6adcf3743b670ddfed1c9b62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-1b2605123c74f2b42a693596d8734905
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1b2605123c74f2b42a693596d8734905
-    projectPath: Temp\UnityTempFile-1b2605123c74f2b42a693596d8734905
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Temp\UnityTempFile-1d8e60e109294b5458d517e53cb531da
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1d8e60e109294b5458d517e53cb531da
     projectPath: Temp\UnityTempFile-1d8e60e109294b5458d517e53cb531da
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1dd71ba323e5e6446a30f627789f139f
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1dd71ba323e5e6446a30f627789f139f
-    projectPath: Temp\UnityTempFile-1dd71ba323e5e6446a30f627789f139f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-24108ba65c394db4dbb3c5591a0a8e47
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-24108ba65c394db4dbb3c5591a0a8e47
-    projectPath: Temp\UnityTempFile-24108ba65c394db4dbb3c5591a0a8e47
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-250249956f1314f4681c9687cf351505
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-250249956f1314f4681c9687cf351505
-    projectPath: Temp\UnityTempFile-250249956f1314f4681c9687cf351505
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -206,41 +1635,23 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-29a1b151224fcfa468611a375d2d25d0
     projectPath: Temp\UnityTempFile-29a1b151224fcfa468611a375d2d25d0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-306b17e22141a8e4eadbf62fcc5576d7
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-306b17e22141a8e4eadbf62fcc5576d7
     projectPath: Temp\UnityTempFile-306b17e22141a8e4eadbf62fcc5576d7
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-5cf1cdd523746b14d8e8f59aa6e2b463
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-5cf1cdd523746b14d8e8f59aa6e2b463
+    projectPath: Temp\UnityTempFile-5cf1cdd523746b14d8e8f59aa6e2b463
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3bd29da743707e9438bb2682302f366d
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-3bd29da743707e9438bb2682302f366d
-    projectPath: Temp\UnityTempFile-3bd29da743707e9438bb2682302f366d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-5e7085e7e29c4a04680f0af8bbfceac6
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-5e7085e7e29c4a04680f0af8bbfceac6
-    projectPath: Temp\UnityTempFile-5e7085e7e29c4a04680f0af8bbfceac6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-611bdf81adcfb6f4394699850036585e
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-611bdf81adcfb6f4394699850036585e
-    projectPath: Temp\UnityTempFile-611bdf81adcfb6f4394699850036585e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Temp\UnityTempFile-619d83ea5bf274142ae0cc0e355d2f33
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-619d83ea5bf274142ae0cc0e355d2f33
     projectPath: Temp\UnityTempFile-619d83ea5bf274142ae0cc0e355d2f33
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6dd878082fa57864a85e666ae15bebdc
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-6dd878082fa57864a85e666ae15bebdc
-    projectPath: Temp\UnityTempFile-6dd878082fa57864a85e666ae15bebdc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -248,41 +1659,17 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-6effa43fe610cab44ae63f42cf02922c
     projectPath: Temp\UnityTempFile-6effa43fe610cab44ae63f42cf02922c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-70043eba2379115408a602aac484ccee
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-70043eba2379115408a602aac484ccee
-    projectPath: Temp\UnityTempFile-70043eba2379115408a602aac484ccee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-71bebf5863e42b4448a2f4ce98137031
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-71bebf5863e42b4448a2f4ce98137031
-    projectPath: Temp\UnityTempFile-71bebf5863e42b4448a2f4ce98137031
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-8273524186da63a4daf36f2acddbd460
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-8273524186da63a4daf36f2acddbd460
-    projectPath: Temp\UnityTempFile-8273524186da63a4daf36f2acddbd460
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-8312d8b83753b6b40a67767bc6939898
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-8312d8b83753b6b40a67767bc6939898
     projectPath: Temp\UnityTempFile-8312d8b83753b6b40a67767bc6939898
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-912ea79aed28ca145817bc24524e7baa
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-912ea79aed28ca145817bc24524e7baa
     projectPath: Temp\UnityTempFile-912ea79aed28ca145817bc24524e7baa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-990296e0811ce3f4faf7c26844e5639a
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-990296e0811ce3f4faf7c26844e5639a
-    projectPath: Temp\UnityTempFile-990296e0811ce3f4faf7c26844e5639a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -290,29 +1677,23 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-9bf1f0eb9f2d9184bb8693a3b2db7b98
     projectPath: Temp\UnityTempFile-9bf1f0eb9f2d9184bb8693a3b2db7b98
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9e855725c384df94ca91874a230ca2dc
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-9e855725c384df94ca91874a230ca2dc
-    projectPath: Temp\UnityTempFile-9e855725c384df94ca91874a230ca2dc
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Temp\UnityTempFile-a12105d12796b54488559eb530a79ee5
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-a12105d12796b54488559eb530a79ee5
+    projectPath: Temp\UnityTempFile-a12105d12796b54488559eb530a79ee5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-a3636c1b1d2bafb408ad3c9dde0d7154
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-a3636c1b1d2bafb408ad3c9dde0d7154
     projectPath: Temp\UnityTempFile-a3636c1b1d2bafb408ad3c9dde0d7154
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-aeb1a35effa2cc443b6d74f4c7f3146f
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-aeb1a35effa2cc443b6d74f4c7f3146f
     projectPath: Temp\UnityTempFile-aeb1a35effa2cc443b6d74f4c7f3146f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-af003305af48cb04a9aef46a31c968d2
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-af003305af48cb04a9aef46a31c968d2
-    projectPath: Temp\UnityTempFile-af003305af48cb04a9aef46a31c968d2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -320,53 +1701,23 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-b0ebf879099d0234cae762068761f605
     projectPath: Temp\UnityTempFile-b0ebf879099d0234cae762068761f605
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bf789769b7dcea842a4c725032025b90
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-bf789769b7dcea842a4c725032025b90
-    projectPath: Temp\UnityTempFile-bf789769b7dcea842a4c725032025b90
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-bfe0a28f8af7a8a488625e0f542d83dd
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-bfe0a28f8af7a8a488625e0f542d83dd
     projectPath: Temp\UnityTempFile-bfe0a28f8af7a8a488625e0f542d83dd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-d80899239ba33ed4a9db90a6d79877a3
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-d80899239ba33ed4a9db90a6d79877a3
     projectPath: Temp\UnityTempFile-d80899239ba33ed4a9db90a6d79877a3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-dd52a89c653321f44acea17710b067ab
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-dd52a89c653321f44acea17710b067ab
     projectPath: Temp\UnityTempFile-dd52a89c653321f44acea17710b067ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dd588238e6314ab4e85b1fd55b8901fd
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-dd588238e6314ab4e85b1fd55b8901fd
-    projectPath: Temp\UnityTempFile-dd588238e6314ab4e85b1fd55b8901fd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-e0005c314329b4244943ade994f84f8d
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e0005c314329b4244943ade994f84f8d
-    projectPath: Temp\UnityTempFile-e0005c314329b4244943ade994f84f8d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-e06c45880ad171646bfbc3de2f0814b3
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e06c45880ad171646bfbc3de2f0814b3
-    projectPath: Temp\UnityTempFile-e06c45880ad171646bfbc3de2f0814b3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-e3cee89d0c06e514b8686b1d8d06e497
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e3cee89d0c06e514b8686b1d8d06e497
-    projectPath: Temp\UnityTempFile-e3cee89d0c06e514b8686b1d8d06e497
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -374,35 +1725,17 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e56ce9e0ba979ec44b85c0981233ed34
     projectPath: Temp\UnityTempFile-e56ce9e0ba979ec44b85c0981233ed34
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-f6f4635a4276ef9449d20834776e37e5
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f6f4635a4276ef9449d20834776e37e5
+    projectPath: Temp\UnityTempFile-f6f4635a4276ef9449d20834776e37e5
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f1fdec8d587cd5d4f85bc79937bef4bf
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f1fdec8d587cd5d4f85bc79937bef4bf
-    projectPath: Temp\UnityTempFile-f1fdec8d587cd5d4f85bc79937bef4bf
+  - path: UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-f40fa172d59afd74193d409fd9751c37
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f40fa172d59afd74193d409fd9751c37
-    projectPath: Temp\UnityTempFile-f40fa172d59afd74193d409fd9751c37
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-f75c4fe634eff7a469e20060d0cd388a
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f75c4fe634eff7a469e20060d0cd388a
-    projectPath: Temp\UnityTempFile-f75c4fe634eff7a469e20060d0cd388a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-fb5a2375a67453e479214ee52b0f236d
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-fb5a2375a67453e479214ee52b0f236d
-    projectPath: Temp\UnityTempFile-fb5a2375a67453e479214ee52b0f236d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-fe323b164541dbd4e839fd41172b0982
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-fe323b164541dbd4e839fd41172b0982
-    projectPath: Temp\UnityTempFile-fe323b164541dbd4e839fd41172b0982
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3

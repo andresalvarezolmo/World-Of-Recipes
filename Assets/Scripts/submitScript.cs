@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class submitScript : MonoBehaviour
 {
 
@@ -15,11 +15,7 @@ public class submitScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        //drag sprite it has not been selected yet
-        if (Input.GetMouseButtonDown(0))
-        {
-            gameManager.checkSolution();
-        }
+        gameManager.checkSolution();
     }
     // Start is called before the first frame update
     void Start()

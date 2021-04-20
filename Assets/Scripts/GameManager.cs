@@ -68,11 +68,11 @@ public class GameManager : MonoBehaviour
         {
             if (userCorrectIngredients == correctIngredients && userCorrectAppliances == correctAppliances)
             {
-                Debug.Log("Correct solution");
+                Debug.Log("Congratulations, correct solution");
             }
             else
             {
-                Debug.Log("Incorrect solution");
+                Debug.Log("Incorrect solution, please try again");
             }
         }
         else
