@@ -79,13 +79,16 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Next had already been unlocked");
+                    Debug.Log("Next level had already been unlocked");
                 }
 
             }
             else
             {
                 Debug.Log("Incorrect solution, please try again");
+                Debug.Log("ingredientCounter" + ingredientCounter);
+                Debug.Log("applianceCounter" + applianceCounter);
+
             }
         }
         else
