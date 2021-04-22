@@ -29,4 +29,13 @@ public class LevelManagerScript : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void runBritishLevel()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void runAmericanLevel()
+    {
+        SceneManager.LoadScene(6);
+    }
 }
