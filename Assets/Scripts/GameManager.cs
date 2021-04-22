@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("User can not submit");
             submitButton.color = new Color(255, 0, 0, 255);
         }
     }
@@ -128,26 +129,26 @@ public class GameManager : MonoBehaviour
     public void RaiseIngredientCounter(int s)
     {
         ingredientCounter += s;
-        //Debug.Log(ingredientCounter);
+        Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/"  + correctIngredients;
     }
     public void DecreaseIngredientCounter(int s)
     {
         ingredientCounter -= s;
-        //Debug.Log(ingredientCounter);
+        Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/" + correctIngredients;
     }
 
     public void RaiseApplianceCounter(int s)
     {
         applianceCounter += s;
-        //Debug.Log(applianceCounter);
+        Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
     }
     public void DecreaseApplianceCounter(int s)
     {
         applianceCounter -= s;
-        //Debug.Log(applianceCounter);
+        Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
     }
 

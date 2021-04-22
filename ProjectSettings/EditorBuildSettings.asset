@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mac_and_Cheese.unity
     guid: d2a7cb0c12b2a154eb99094228b67a4f
+  - enabled: 1
+    path: Assets/Scenes/Loaded_nachos.unity
+    guid: e3488235c04904d41b5cfb6e99f6485b
   m_configObjects: {}
