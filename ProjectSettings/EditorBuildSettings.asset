@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Pancakes.unity
     guid: c8fff85660a9b474bb91dc06b1667afb
   - enabled: 1
-    path: Assets/Scenes/Fish_and_Chips.unity
+    path: Assets/Scenes/Mac_and_Cheese.unity
     guid: f9db3743384d6c34486774c7992b6142
   - enabled: 1
-    path: Assets/Scenes/Mac_and_Cheese.unity
+    path: Assets/Scenes/Fish_Chips.unity
     guid: d2a7cb0c12b2a154eb99094228b67a4f
   - enabled: 1
     path: Assets/Scenes/Loaded_nachos.unity

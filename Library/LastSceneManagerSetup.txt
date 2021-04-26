@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/LevelExplorer.unity
+- path: Assets/Scenes/Tortilla.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

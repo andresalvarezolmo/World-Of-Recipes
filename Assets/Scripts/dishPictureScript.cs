@@ -7,12 +7,15 @@ public class dishPictureScript : MonoBehaviour
     private bool clicked = false;
     private Vector3 dishPosition;
     private Vector3 dishScale;
+    private Vector3 aumentedScale;
+    public SpriteRenderer filter;
 
     // Start is called before the first frame update
     void Start()
     {
         dishPosition = this.transform.localPosition;
         dishScale = this.transform.localScale;
+        aumentedScale = 3 * dishScale;
     }
 
     // Update is called once per frame
@@ -27,15 +30,17 @@ public class dishPictureScript : MonoBehaviour
         if (clicked == false)
         {
             this.gameObject.transform.localPosition = new Vector3(0,1,1);
-            this.gameObject.transform.localScale = new Vector3(1, 1, 1);
-;            clicked = true;
+            this.gameObject.transform.localScale = aumentedScale;
+;           clicked = true;
+            filter.enabled = true;
         }
         else
         {
             this.gameObject.transform.localScale = dishScale;
             this.gameObject.transform.localPosition = dishPosition;
             clicked = false;
+            filter.enabled = false;
         }
-        Debug.Log("Ahhhh clickase wey " + clicked);
+        //Debug.Log("Ahhhh clickase wey " + clicked);
     }
 }

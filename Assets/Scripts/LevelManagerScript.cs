@@ -17,6 +17,13 @@ public class LevelManagerScript : MonoBehaviour
         }
 
     }
+
+    public void resetUnlockedLevels()
+    {
+        PlayerPrefs.SetInt("LevelReached", 0);
+        SceneManager.LoadScene(1);
+
+    }
     public void runSpanishLevel()
     {
         SceneManager.LoadScene(2);
@@ -40,5 +47,9 @@ public class LevelManagerScript : MonoBehaviour
     public void runMexicanLevel()
     {
         SceneManager.LoadScene(7);
+    }
+    public void backButtonMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

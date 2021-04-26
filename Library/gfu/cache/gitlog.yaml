@@ -13,9 +13,600 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-04-22T12:52:49.492+01:00
-  initializedAtString: 2021-04-22T10:52:46.860+01:00
+  lastUpdatedAtString: 2021-04-26T22:58:51.995+01:00
+  initializedAtString: 2021-04-26T18:56:17.997+01:00
   log:
+  - commitID: 6ebc56992506ca9cf248970f8256c50a2494aa32
+    mergeA: 
+    mergeB: 
+    authorName: Andres
+    authorEmail: xxdrews@gmail.com
+    commitEmail: xxdrews@gmail.com
+    commitName: Andres
+    summary: all levels implemented with some bugs on the mexican level when button
+      changes color when decrease appliance counter
+    description: 
+    timeString: 2021-04-22T21:07:01.000+01:00
+    commitTimeString: 2021-04-22T21:07:01.000+01:00
+    changes:
+    - path: Assets\Scenes\LevelExplorer.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\LevelExplorer.unity
+      projectPath: Assets\Scenes\LevelExplorer.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Loaded_nachos.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Loaded_nachos.unity
+      projectPath: Assets\Scenes\Loaded_nachos.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\LevelManagerScript.cs
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\LevelManagerScript.cs
+      projectPath: Assets\Scripts\LevelManagerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\avocado.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\avocado.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\avocado.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\parmegian.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\parmegian.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\parmegian.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\Assembly-CSharp.dll.hash
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\Assembly-CSharp.dll.hash
+      projectPath: Temp\Assembly-CSharp.dll.hash
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\CompilationLog.txt
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\CompilationLog.txt
+      projectPath: Temp\CompilationLog.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
+      projectPath: Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
+      projectPath: Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
+      projectPath: Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
+      projectPath: Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
+      projectPath: Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
+      projectPath: Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\workerlic
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\workerlic
+      projectPath: Temp\workerlic
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 6c14cc5634d016612a36fd3c937cb60ee24342ea
+    mergeA: 
+    mergeB: 
+    authorName: Andres
+    authorEmail: xxdrews@gmail.com
+    commitEmail: xxdrews@gmail.com
+    commitName: Andres
+    summary: fish and chips and mac and cheese level implemented
+    description: 
+    timeString: 2021-04-22T13:07:29.000+01:00
+    commitTimeString: 2021-04-22T13:07:29.000+01:00
+    changes:
+    - path: Assets\Scenes\Fish_and_Chips.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Fish_and_Chips.unity
+      projectPath: Assets\Scenes\Fish_and_Chips.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\LevelExplorer.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\LevelExplorer.unity
+      projectPath: Assets\Scenes\LevelExplorer.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Mac_and_Cheese.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Mac_and_Cheese.unity
+      projectPath: Assets\Scenes\Mac_and_Cheese.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\LevelManagerScript.cs
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\LevelManagerScript.cs
+      projectPath: Assets\Scripts\LevelManagerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\appliances\fryer.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\appliances\fryer.png
+      projectPath: Assets\Sprites\appliances\fryer.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\beer.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\beer.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\beer.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\cheese.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\cheese.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\cheese.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\corn.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\corn.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\corn.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\fish.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\fish.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\fish.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\fish_and_chips.jpg
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\fish_and_chips.jpg
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\fish_and_chips.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\flour.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\flour.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\flour.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\lard.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\lard.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\lard.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\oil.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\oil.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\oil.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\peas.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\peas.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\peas.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\pepper.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\pepper.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\pepper.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\potato.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\potato.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\potato.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\puff pastry.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\puff
+        pastry.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\puff pastry.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\fish_and_chips\water.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\fish_and_chips\water.png
+      projectPath: Assets\Sprites\ingredients\fish_and_chips\water.png
+      originalPath: Assets\Sprites\ingredients\pancakes\water.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\Loaded_Nachos.jpg
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\Loaded_Nachos.jpg
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\Loaded_Nachos.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\Totopos.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\Totopos.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\Totopos.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\cheese.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\cheese.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\cheese.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\cherries.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\cherries.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\cherries.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\chicken_breast.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\chicken_breast.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\chicken_breast.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\cilantro.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\cilantro.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\cilantro.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\ingredients\\loaded_nachos\\japape\xF1os.png"
+      fullPath: "C:\\Users\\alvar\\UnityProjects\\World Of Recipes\\Assets\\Sprites\\ingredients\\loaded_nachos\\japape\xF1os.png"
+      projectPath: "Assets\\Sprites\\ingredients\\loaded_nachos\\japape\xF1os.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\minced_meat.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\minced_meat.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\minced_meat.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\pickles.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\pickles.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\pickles.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\rice.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\rice.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\rice.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\sour_cream.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\sour_cream.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\sour_cream.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\loaded_nachos\spring_onions.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\loaded_nachos\spring_onions.png
+      projectPath: Assets\Sprites\ingredients\loaded_nachos\spring_onions.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\avocado.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\avocado.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\avocado.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\black.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\black.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\black.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\blue cheese.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\blue
+        cheese.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\blue cheese.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\breadcrumbs.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\breadcrumbs.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\breadcrumbs.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\butter.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\butter.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\butter.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\cheese.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\cheese.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\cheese.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\cream.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\cream.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\cream.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\mac_and_cheese.jpg
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\mac_and_cheese.jpg
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\mac_and_cheese.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\macaroni.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\macaroni.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\macaroni.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\milk.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\milk.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\milk.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\pepperoni.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\pepperoni.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\pepperoni.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\red_cabbage.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\red_cabbage.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\red_cabbage.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\ingredients\mac_and_cheese\zucchini.png
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\ingredients\mac_and_cheese\zucchini.png
+      projectPath: Assets\Sprites\ingredients\mac_and_cheese\zucchini.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\Assembly-CSharp.dll.hash
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\Assembly-CSharp.dll.hash
+      projectPath: Temp\Assembly-CSharp.dll.hash
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\CompilationLog.txt
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\CompilationLog.txt
+      projectPath: Temp\CompilationLog.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-7c182d98380f5c247ab5a7e478625de6
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-7c182d98380f5c247ab5a7e478625de6
+      projectPath: Temp\UnityTempFile-7c182d98380f5c247ab5a7e478625de6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\workerlic
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\workerlic
+      projectPath: Temp\workerlic
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 77514002af9dfccaeb6c30eb3681a59934fe0d55
     mergeA: 
     mergeB: 

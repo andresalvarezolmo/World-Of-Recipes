@@ -12,20 +12,8 @@ public class submitScript : MonoBehaviour
         gameManager = GameObject.Find("Scripter").GetComponent<GameManager>();
 
     }
-
-    private void OnMouseDown()
+    public void submitButton()
     {
         gameManager.checkSolution();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

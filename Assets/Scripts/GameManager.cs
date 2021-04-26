@@ -24,22 +24,22 @@ public class GameManager : MonoBehaviour
     public Text IngredientDisplayText;
     public Text ApplianceDisplayText;
 
-    //submit button
-    public SpriteRenderer submitButton;
+
+    public GameObject submitButton;
 
     //levelmanager
     public int nextLevel;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
+        
         correctIngredients = IngredientHolder.transform.childCount;
-
         Ingredients = new GameObject[correctIngredients];
         for(int i = 0; i < Ingredients.Length; i++)
         {
             Ingredients[i] = IngredientHolder.transform.GetChild(i).gameObject;
-            Debug.Log(IngredientHolder.transform.GetChild(i).gameObject);
+            //Debug.Log(IngredientHolder.transform.GetChild(i).gameObject);
         }
 
         correctAppliances = ApplianceHolder.transform.childCount;
@@ -47,22 +47,25 @@ public class GameManager : MonoBehaviour
         for (int j = 0; j < Appliances.Length; j++)
         {
             Appliances[j] = ApplianceHolder.transform.GetChild(j).gameObject;
-            Debug.Log(ApplianceHolder.transform.GetChild(j).gameObject);
+            //Debug.Log(ApplianceHolder.transform.GetChild(j).gameObject);
         }
 
     }
 
     public void checkAmountofIngredients()
     {
-        if(ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
+        Image imgButton = submitButton.GetComponent<Image>();
+        if (ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
         {
-            Debug.Log("User can submit");
-            submitButton.color = new Color(255, 255, 255, 255);
+            //Debug.Log("User can submit");
+            //submitButton.color = new Color(255, 255, 255, 255);
+            imgButton.color = Color.green;
         }
         else
         {
-            Debug.Log("User can not submit");
-            submitButton.color = new Color(255, 0, 0, 255);
+            //Debug.Log("User can not submit");
+            //submitButton.color = new Color(255, 0, 0, 255);
+            imgButton.color = Color.red;
         }
     }
 
@@ -102,53 +105,53 @@ public class GameManager : MonoBehaviour
     public void selectedCorrectIngredient()
     {
         userCorrectIngredients++;
-        Debug.Log("Correct ingredient selected. Amount: " + userCorrectIngredients);
+        //Debug.Log("Correct ingredient selected. Amount: " + userCorrectIngredients);
         checkAmountofIngredients();
     }
     public void unSelectedCorrectIngredient()
     {
         userCorrectIngredients--;
-        Debug.Log("Correct ingredient unselected. Amount: " + userCorrectIngredients);
+        //Debug.Log("Correct ingredient unselected. Amount: " + userCorrectIngredients);
         checkAmountofIngredients();
     }
 
     public void selectedCorrectAppliance()
     {
         userCorrectAppliances++;
-        Debug.Log("Correct Appliance selected. Amount: " + userCorrectAppliances);
+        //Debug.Log("Correct Appliance selected. Amount: " + userCorrectAppliances);
         checkAmountofIngredients();
     }
 
     public void unSelectedCorrectAppliance()
     {
         userCorrectAppliances--;
-        Debug.Log("Correct Appliance unselected. Amount: " + userCorrectAppliances);
+        //Debug.Log("Correct Appliance unselected. Amount: " + userCorrectAppliances);
         checkAmountofIngredients();
     }
 
     public void RaiseIngredientCounter(int s)
     {
         ingredientCounter += s;
-        Debug.Log(ingredientCounter);
+        //Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/"  + correctIngredients;
     }
     public void DecreaseIngredientCounter(int s)
     {
         ingredientCounter -= s;
-        Debug.Log(ingredientCounter);
+        //Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/" + correctIngredients;
     }
 
     public void RaiseApplianceCounter(int s)
     {
         applianceCounter += s;
-        Debug.Log(applianceCounter);
+        //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
     }
     public void DecreaseApplianceCounter(int s)
     {
         applianceCounter -= s;
-        Debug.Log(applianceCounter);
+        //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
     }
 
