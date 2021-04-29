@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-26T23:50:59.037+01:00
-  initializedAtString: 2021-04-26T18:56:11.518+01:00
+  lastUpdatedAtString: 2021-04-29T11:54:18.500+01:00
+  initializedAtString: 2021-04-29T10:24:13.837+01:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assembly-CSharp.csproj
@@ -28,18 +28,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Fish_and_Chips.unity
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Fish_and_Chips.unity
-    projectPath: Assets\Scenes\Fish_and_Chips.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Assets\Scenes\Fish_Chips.unity
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Fish_Chips.unity
     projectPath: Assets\Scenes\Fish_Chips.unity
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scenes\LevelExplorer.unity
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\LevelExplorer.unity
     projectPath: Assets\Scenes\LevelExplorer.unity
@@ -55,6 +49,12 @@ MonoBehaviour:
   - path: Assets\Scenes\Mac_and_Cheese.unity
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Mac_and_Cheese.unity
     projectPath: Assets\Scenes\Mac_and_Cheese.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\Menu.unity
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Menu.unity
+    projectPath: Assets\Scenes\Menu.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -76,9 +76,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\dishPictureScript.cs
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\dishPictureScript.cs
-    projectPath: Assets\Scripts\dishPictureScript.cs
+  - path: Assets\Scripts\DragSystem.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\DragSystem.cs
+    projectPath: Assets\Scripts\DragSystem.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,24 +88,75 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\LevelManagerScript.cs
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\LevelManagerScript.cs
-    projectPath: Assets\Scripts\LevelManagerScript.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\submitScript.cs
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\submitScript.cs
-    projectPath: Assets\Scripts\submitScript.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Sprites\Background\filter.jpg
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Background\filter.jpg
-    projectPath: Assets\Sprites\Background\filter.jpg
+  - path: Assets\Scripts\GameOverButtons.cs
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\GameOverButtons.cs
+    projectPath: Assets\Scripts\GameOverButtons.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets\TextMesh Pro\ColorGradient.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\ColorGradient.asset
+    projectPath: Assets\TextMesh Pro\ColorGradient.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Anton SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Bangers SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
+      SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Electronic Highway Sign SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Oswald Bold SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Poppins-SemiBold.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Examples
+      & Extras\Resources\Fonts & Materials\Poppins-SemiBold.ttf
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Poppins-SemiBold.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Fonts\Poppins-SemiBold.ttf
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Fonts\Poppins-SemiBold.ttf
+    projectPath: Assets\TextMesh Pro\Fonts\Poppins-SemiBold.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\TextMesh Pro\Resources\Fonts
+      & Materials\LiberationSans SDF - Fallback.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -160,9 +211,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -178,12 +229,84 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ShaderCache\0\03caa5327a43af8b5fed7182fb59aa31.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\03caa5327a43af8b5fed7182fb59aa31.bin
+    projectPath: Library\ShaderCache\0\03caa5327a43af8b5fed7182fb59aa31.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0e6fee927d0a32d0a8271f53f6fa2ec1.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\0\0e6fee927d0a32d0a8271f53f6fa2ec1.bin
+    projectPath: Library\ShaderCache\0\0e6fee927d0a32d0a8271f53f6fa2ec1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\317239427f18b6fbb8f73572cefddd38.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\3\317239427f18b6fbb8f73572cefddd38.bin
+    projectPath: Library\ShaderCache\3\317239427f18b6fbb8f73572cefddd38.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5a8ca75f035c42c2c90f5172420a8bc8.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\5\5a8ca75f035c42c2c90f5172420a8bc8.bin
+    projectPath: Library\ShaderCache\5\5a8ca75f035c42c2c90f5172420a8bc8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\714f2b642ad344e6aad78a4eb7d9ccec.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\7\714f2b642ad344e6aad78a4eb7d9ccec.bin
+    projectPath: Library\ShaderCache\7\714f2b642ad344e6aad78a4eb7d9ccec.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7172b3b3ef455d50836ccc172ac8990e.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\7\7172b3b3ef455d50836ccc172ac8990e.bin
+    projectPath: Library\ShaderCache\7\7172b3b3ef455d50836ccc172ac8990e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9509ed4e5de107bdb188ef1e78c1fa10.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\9\9509ed4e5de107bdb188ef1e78c1fa10.bin
+    projectPath: Library\ShaderCache\9\9509ed4e5de107bdb188ef1e78c1fa10.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\993c8e0ab0fc62a31d04b44c5df84d28.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\9\993c8e0ab0fc62a31d04b44c5df84d28.bin
+    projectPath: Library\ShaderCache\9\993c8e0ab0fc62a31d04b44c5df84d28.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b80f9090d60505651e79c10a003c81f7.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\b\b80f9090d60505651e79c10a003c81f7.bin
+    projectPath: Library\ShaderCache\b\b80f9090d60505651e79c10a003c81f7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ebe7af7c07a4334f58a7e502e2e01c5c.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\e\ebe7af7c07a4334f58a7e502e2e01c5c.bin
+    projectPath: Library\ShaderCache\e\ebe7af7c07a4334f58a7e502e2e01c5c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ShaderCache\f\f515bd3b76c26a000e0b080d644e42df.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\f\f515bd3b76c26a000e0b080d644e42df.bin
+    projectPath: Library\ShaderCache\f\f515bd3b76c26a000e0b080d644e42df.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fe1e38f68edb526ef522e094b000b8f0.bin
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ShaderCache\f\fe1e38f68edb526ef522e094b000b8f0.bin
+    projectPath: Library\ShaderCache\f\fe1e38f68edb526ef522e094b000b8f0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\SourceAssetDB
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -199,24 +322,6 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\ApiUpdaterCheck.txt
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Logs\ApiUpdaterCheck.txt
-    projectPath: Logs\ApiUpdaterCheck.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -242,41 +347,29 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-0191412acd36dc1408568ef57c436b3d
     projectPath: Temp\UnityTempFile-0191412acd36dc1408568ef57c436b3d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-023e5e677266b9240acd1ee80a9eb29d
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-023e5e677266b9240acd1ee80a9eb29d
     projectPath: Temp\UnityTempFile-023e5e677266b9240acd1ee80a9eb29d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-081c1b8c8f137f7438c7b0d6067696b4
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-081c1b8c8f137f7438c7b0d6067696b4
     projectPath: Temp\UnityTempFile-081c1b8c8f137f7438c7b0d6067696b4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-098f274f8eccfe64b9f31e378836f8c6
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-098f274f8eccfe64b9f31e378836f8c6
     projectPath: Temp\UnityTempFile-098f274f8eccfe64b9f31e378836f8c6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-19bb8f133d653df458959a37273520ba
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-19bb8f133d653df458959a37273520ba
     projectPath: Temp\UnityTempFile-19bb8f133d653df458959a37273520ba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
-    projectPath: Temp\UnityTempFile-1bf0ddc62d5edf14a9d4cccbd044a782
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
-    projectPath: Temp\UnityTempFile-1e403b2f6c5f68647a59f50656c90d64
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -284,23 +377,35 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-1f4ab6eea161d3c48a52a3df8e8e535a
     projectPath: Temp\UnityTempFile-1f4ab6eea161d3c48a52a3df8e8e535a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-2522cffcae04d704bac5fee2ba5e1860
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-2522cffcae04d704bac5fee2ba5e1860
     projectPath: Temp\UnityTempFile-2522cffcae04d704bac5fee2ba5e1860
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
-    projectPath: Temp\UnityTempFile-4c94e6313b8826c49b82f7d7c3b9b0d9
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Temp\UnityTempFile-3477a629e43921146951b14e4a42ad9c
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-3477a629e43921146951b14e4a42ad9c
+    projectPath: Temp\UnityTempFile-3477a629e43921146951b14e4a42ad9c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-4dc03b3e570e74d4e883a82a3134f845
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-4dc03b3e570e74d4e883a82a3134f845
     projectPath: Temp\UnityTempFile-4dc03b3e570e74d4e883a82a3134f845
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-5d61be8f5d7e1c74a8693ade740869ca
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-5d61be8f5d7e1c74a8693ade740869ca
+    projectPath: Temp\UnityTempFile-5d61be8f5d7e1c74a8693ade740869ca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-697e4a79aebb8944ca27317be5277658
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-697e4a79aebb8944ca27317be5277658
+    projectPath: Temp\UnityTempFile-697e4a79aebb8944ca27317be5277658
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -308,17 +413,29 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-70f30c28ff397ed47ad1e97cdd4bcad4
     projectPath: Temp\UnityTempFile-70f30c28ff397ed47ad1e97cdd4bcad4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
-    projectPath: Temp\UnityTempFile-868f01d84cfd1fb459a13c698d23c6cb
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Temp\UnityTempFile-745ababb0cbd10d44b596951bb918e05
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-745ababb0cbd10d44b596951bb918e05
+    projectPath: Temp\UnityTempFile-745ababb0cbd10d44b596951bb918e05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7f641b348deecfb48897f9f51397ca64
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-7f641b348deecfb48897f9f51397ca64
+    projectPath: Temp\UnityTempFile-7f641b348deecfb48897f9f51397ca64
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-97feb4f41bf5342428bc55e3d8db2f6c
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-97feb4f41bf5342428bc55e3d8db2f6c
     projectPath: Temp\UnityTempFile-97feb4f41bf5342428bc55e3d8db2f6c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-a62bc52c82b58c540be49ba87ece3a8b
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-a62bc52c82b58c540be49ba87ece3a8b
+    projectPath: Temp\UnityTempFile-a62bc52c82b58c540be49ba87ece3a8b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -326,17 +443,23 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-b47809459eb42554d886ba452c67b65e
     projectPath: Temp\UnityTempFile-b47809459eb42554d886ba452c67b65e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
-    projectPath: Temp\UnityTempFile-bfa33db3a7c683a42bf12a349e2670c5
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Temp\UnityTempFile-c2080cff2a6dff746b35c77f13ebb98c
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-c2080cff2a6dff746b35c77f13ebb98c
+    projectPath: Temp\UnityTempFile-c2080cff2a6dff746b35c77f13ebb98c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-d484081d73993fc46a04b6b47e5e9058
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-d484081d73993fc46a04b6b47e5e9058
     projectPath: Temp\UnityTempFile-d484081d73993fc46a04b6b47e5e9058
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-e3eff3f7b921820429c5ae6c0126bfe5
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e3eff3f7b921820429c5ae6c0126bfe5
+    projectPath: Temp\UnityTempFile-e3eff3f7b921820429c5ae6c0126bfe5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -344,29 +467,53 @@ MonoBehaviour:
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e8c7ab9f7a0963647a4400e524d01d00
     projectPath: Temp\UnityTempFile-e8c7ab9f7a0963647a4400e524d01d00
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-e94084a46377af048ab505618079c856
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-e94084a46377af048ab505618079c856
+    projectPath: Temp\UnityTempFile-e94084a46377af048ab505618079c856
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\UnityTempFile-ecb62ade490b55f478d899a72761491d
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-ecb62ade490b55f478d899a72761491d
     projectPath: Temp\UnityTempFile-ecb62ade490b55f478d899a72761491d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
-    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
-    projectPath: Temp\UnityTempFile-f112dfd3b107665429ccad162a6364e3
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Temp\UnityTempFile-ed08343f4de91ec4a89abe52f12e0c34
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-ed08343f4de91ec4a89abe52f12e0c34
+    projectPath: Temp\UnityTempFile-ed08343f4de91ec4a89abe52f12e0c34
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-eea1926e5da71af40b88e00861bf3721
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-eea1926e5da71af40b88e00861bf3721
+    projectPath: Temp\UnityTempFile-eea1926e5da71af40b88e00861bf3721
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-f2fbf54af9f07044aba34e6b5d83cf74
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f2fbf54af9f07044aba34e6b5d83cf74
     projectPath: Temp\UnityTempFile-f2fbf54af9f07044aba34e6b5d83cf74
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-f4b6ca9efbbf167489dc24fc47cfe73f
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f4b6ca9efbbf167489dc24fc47cfe73f
+    projectPath: Temp\UnityTempFile-f4b6ca9efbbf167489dc24fc47cfe73f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\UnityTempFile-fa91adb391fc04b4da573cfec4858954
     fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-fa91adb391fc04b4da573cfec4858954
     projectPath: Temp\UnityTempFile-fa91adb391fc04b4da573cfec4858954
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\UnityTempFile-ff636234925867e40b409e61a5bb9f4a
+    fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-ff636234925867e40b409e61a5bb9f4a
+    projectPath: Temp\UnityTempFile-ff636234925867e40b409e61a5bb9f4a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

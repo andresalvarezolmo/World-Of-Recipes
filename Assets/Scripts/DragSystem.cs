@@ -55,7 +55,7 @@ public class DragSystem : MonoBehaviour
 
     private void OnMouseDown()
     {
-        //drag sprite it has not been selected yet
+        //drag sprite if has not been selected yet
         if (Input.GetMouseButtonDown(0) && selected == false)
         {
             Vector3 mousePos;

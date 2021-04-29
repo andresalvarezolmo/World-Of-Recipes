@@ -24,9 +24,10 @@ public class GameManager : MonoBehaviour
     public Text IngredientDisplayText;
     public Text ApplianceDisplayText;
 
-
     public GameObject submitButton;
 
+    public GameObject gameOverScreenCorrect;
+    public GameObject gameOverScreenWrong;
     //levelmanager
     public int nextLevel;
 
@@ -85,14 +86,14 @@ public class GameManager : MonoBehaviour
                 {
                     Debug.Log("Next level had already been unlocked");
                 }
-
+                gameOverScreenCorrect.SetActive(true);
             }
             else
             {
                 Debug.Log("Incorrect solution, please try again");
                 Debug.Log("ingredientCounter" + ingredientCounter);
                 Debug.Log("applianceCounter" + applianceCounter);
-
+                gameOverScreenWrong.SetActive(true);
             }
         }
         else
@@ -134,12 +135,14 @@ public class GameManager : MonoBehaviour
         ingredientCounter += s;
         //Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/"  + correctIngredients;
+        checkAmountofIngredients();
     }
     public void DecreaseIngredientCounter(int s)
     {
         ingredientCounter -= s;
         //Debug.Log(ingredientCounter);
         IngredientDisplayText.text = "Selected ingredients " + ingredientCounter + "/" + correctIngredients;
+        checkAmountofIngredients();
     }
 
     public void RaiseApplianceCounter(int s)
@@ -147,13 +150,14 @@ public class GameManager : MonoBehaviour
         applianceCounter += s;
         //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
+        checkAmountofIngredients();
     }
     public void DecreaseApplianceCounter(int s)
     {
         applianceCounter -= s;
         //Debug.Log(applianceCounter);
         ApplianceDisplayText.text = "Selected appliance " + applianceCounter + "/" + correctAppliances;
+        checkAmountofIngredients();
     }
-
 
 }
