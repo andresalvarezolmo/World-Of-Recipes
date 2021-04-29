@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverScreenCorrect;
     public GameObject gameOverScreenWrong;
+    public GameObject gameCompleted;
+
     //levelmanager
     public int nextLevel;
 
@@ -86,7 +88,10 @@ public class GameManager : MonoBehaviour
                 {
                     Debug.Log("Next level had already been unlocked");
                 }
-                gameOverScreenCorrect.SetActive(true);
+
+                if(PlayerPrefs.GetInt("LevelReached") == 6) gameCompleted.SetActive(true);
+
+                else gameOverScreenCorrect.SetActive(true);
             }
             else
             {
