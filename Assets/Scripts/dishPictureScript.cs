@@ -18,11 +18,6 @@ public class dishPictureScript : MonoBehaviour
         aumentedScale = 3 * dishScale;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnMouseDown()
     {
@@ -41,6 +36,6 @@ public class dishPictureScript : MonoBehaviour
             clicked = false;
             filter.enabled = false;
         }
-        //Debug.Log("Ahhhh clickase wey " + clicked);
+        //Debug.Log("u clicked" + clicked);
     }
 }

@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameCompleted;
 
     //levelmanager
-    public int nextLevel;
+    public string nextLevel;
 
     // Start is called before the first frame update
     public void Start()
@@ -79,9 +79,9 @@ public class GameManager : MonoBehaviour
             if (userCorrectIngredients == correctIngredients && userCorrectAppliances == correctAppliances)
             {
                 Debug.Log("Congratulations, correct solution");
-                if (nextLevel > PlayerPrefs.GetInt("LevelReached"))
+                if (int.Parse(nextLevel) > int.Parse(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"),200)))
                 {
-                    PlayerPrefs.SetInt("LevelReached", nextLevel);
+                    PlayerPrefs.SetString("LevelReached", encryptScript.EncryptDecrypt(nextLevel,200));
                     Debug.Log("Next level unlocked");
                 }
                 else
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
                     Debug.Log("Next level had already been unlocked");
                 }
 
-                if(PlayerPrefs.GetInt("LevelReached") == 6) gameCompleted.SetActive(true);
+                if(int.Parse(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"),200)) == 6) gameCompleted.SetActive(true);
 
                 else gameOverScreenCorrect.SetActive(true);
             }

@@ -10,17 +10,20 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        int levelReached = PlayerPrefs.GetInt("LevelReached", 0);
+        string levelReached = encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"),200);
+        Debug.Log(levelReached);
+        
         for (int i = 0; i < levelButtons.Length; i++)
         {
-            if (i > levelReached) levelButtons[i].interactable = false;
+            if (i > int.Parse(levelReached)) levelButtons[i].interactable = false;
         }
 
     }
 
     public void resetUnlockedLevels()
     {
-        PlayerPrefs.SetInt("LevelReached", 0);
+        Debug.Log("aqui tamos");
+        PlayerPrefs.SetString("LevelReached", encryptScript.EncryptDecrypt("0",200));
         SceneManager.LoadScene(1);
 
     }
