@@ -25,26 +25,34 @@ public class GameManager : MonoBehaviour
     public Text ApplianceDisplayText;
 
     public GameObject submitButton;
-
+    
+    //Level complete screens
     public GameObject gameOverScreenCorrect;
     public GameObject gameOverScreenWrong;
     public GameObject gameCompleted;
 
+    public GameObject AIButton;
+
     //levelmanager
     public string nextLevel;
+
+    int randomSelectedIngredient;
+    int hintsLeft = 1;
+    public Text HintsText;
 
     // Start is called before the first frame update
     public void Start()
     {
-        
+
         correctIngredients = IngredientHolder.transform.childCount;
         Ingredients = new GameObject[correctIngredients];
+
         for(int i = 0; i < Ingredients.Length; i++)
         {
             Ingredients[i] = IngredientHolder.transform.GetChild(i).gameObject;
             //Debug.Log(IngredientHolder.transform.GetChild(i).gameObject);
         }
-
+        
         correctAppliances = ApplianceHolder.transform.childCount;
         Appliances = new GameObject[correctAppliances];
         for (int j = 0; j < Appliances.Length; j++)
@@ -52,7 +60,13 @@ public class GameManager : MonoBehaviour
             Appliances[j] = ApplianceHolder.transform.GetChild(j).gameObject;
             //Debug.Log(ApplianceHolder.transform.GetChild(j).gameObject);
         }
+        
 
+    }
+    IEnumerator ExampleCoroutine(GameObject myObject)
+    {
+        yield return new WaitForSeconds(1);
+        myObject.GetComponent<Renderer>().material.color = Color.white;
     }
 
     public void checkAmountofIngredients()
@@ -108,30 +122,62 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void AIMethod()
+    {
+        //iterate
+        //check they are included ? add them to the list
+        //select one random from the list and highlight for a few seconds
+        if(hintsLeft > 0)
+        {
+            randomSelectedIngredient = Random.Range(0, Ingredients.Length);
+            Debug.Log(randomSelectedIngredient);
+            Ingredients[randomSelectedIngredient].GetComponent<Renderer>().material.color = Color.green;
+            StartCoroutine(ExampleCoroutine(Ingredients[randomSelectedIngredient]));
+            hintsLeft--;
+            updateHintsText();
+        }
+        
+    }
+    public void updateHintsText()
+    {
+        HintsText.text = "Hints left:" + hintsLeft;
+        if (hintsLeft < 1) HintsText.color = Color.red;
+    }
+    public void hideHintsText()
+    {
+        if (HintsText.gameObject.activeSelf) HintsText.gameObject.SetActive(false);
+        else HintsText.gameObject.SetActive(true);
+    }
+    public void hideAIbutton()
+    {
+        if(AIButton.activeSelf) AIButton.SetActive(false);
+        else AIButton.SetActive(true);
+    }
+
     public void selectedCorrectIngredient()
     {
         userCorrectIngredients++;
-        //Debug.Log("Correct ingredient selected. Amount: " + userCorrectIngredients);
+        Debug.Log("Correct ingredient selected. Amount: " + userCorrectIngredients);
         checkAmountofIngredients();
     }
     public void unSelectedCorrectIngredient()
     {
         userCorrectIngredients--;
-        //Debug.Log("Correct ingredient unselected. Amount: " + userCorrectIngredients);
+        Debug.Log("Correct ingredient unselected. Amount: " + userCorrectIngredients);
         checkAmountofIngredients();
     }
 
     public void selectedCorrectAppliance()
     {
         userCorrectAppliances++;
-        //Debug.Log("Correct Appliance selected. Amount: " + userCorrectAppliances);
+        Debug.Log("Correct Appliance selected. Amount: " + userCorrectAppliances);
         checkAmountofIngredients();
     }
 
     public void unSelectedCorrectAppliance()
     {
         userCorrectAppliances--;
-        //Debug.Log("Correct Appliance unselected. Amount: " + userCorrectAppliances);
+        Debug.Log("Correct Appliance unselected. Amount: " + userCorrectAppliances);
         checkAmountofIngredients();
     }
 

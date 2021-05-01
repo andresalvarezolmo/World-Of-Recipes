@@ -10,6 +10,7 @@ public class dishPictureScript : MonoBehaviour
     private Vector3 aumentedScale;
     public SpriteRenderer filter;
 
+    GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,11 @@ public class dishPictureScript : MonoBehaviour
         dishScale = this.transform.localScale;
         aumentedScale = 3 * dishScale;
     }
+    private void Awake()
+    {
+        gameManager = GameObject.Find("Scripter").GetComponent<GameManager>();
 
+    }
 
     public void OnMouseDown()
     {
@@ -28,6 +33,8 @@ public class dishPictureScript : MonoBehaviour
             this.gameObject.transform.localScale = aumentedScale;
 ;           clicked = true;
             filter.enabled = true;
+            gameManager.hideAIbutton();
+            gameManager.hideHintsText();
         }
         else
         {
@@ -35,6 +42,8 @@ public class dishPictureScript : MonoBehaviour
             this.gameObject.transform.localPosition = dishPosition;
             clicked = false;
             filter.enabled = false;
+            gameManager.hideAIbutton();
+            gameManager.hideHintsText();
         }
         //Debug.Log("u clicked" + clicked);
     }
