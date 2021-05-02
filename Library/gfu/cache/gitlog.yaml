@@ -13,9 +13,273 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-05-02T11:13:08.548+01:00
-  initializedAtString: 2021-05-02T11:13:08.548+01:00
+  lastUpdatedAtString: 2021-05-02T23:54:09.139+01:00
+  initializedAtString: 2021-05-02T23:54:09.095+01:00
   log:
+  - commitID: 279f4038de6290672fa4bf99fae97d8c3483c4f8
+    mergeA: 
+    mergeB: 
+    authorName: Andres
+    authorEmail: xxdrews@gmail.com
+    commitEmail: xxdrews@gmail.com
+    commitName: Andres
+    summary: sound effects implemented
+    description: 
+    timeString: 2021-05-02T13:13:22.000+01:00
+    commitTimeString: 2021-05-02T13:13:22.000+01:00
+    changes:
+    - path: Assets\Scenes\Fish_Chips.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Fish_Chips.unity
+      projectPath: Assets\Scenes\Fish_Chips.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Loaded_nachos.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Loaded_nachos.unity
+      projectPath: Assets\Scenes\Loaded_nachos.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Mac_and_Cheese.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Mac_and_Cheese.unity
+      projectPath: Assets\Scenes\Mac_and_Cheese.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Pancakes.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Pancakes.unity
+      projectPath: Assets\Scenes\Pancakes.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Pizza.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Pizza.unity
+      projectPath: Assets\Scenes\Pizza.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Tortilla.unity
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scenes\Tortilla.unity
+      projectPath: Assets\Scenes\Tortilla.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\DragSystem.cs
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\DragSystem.cs
+      projectPath: Assets\Scripts\DragSystem.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Sounds\correctSolution.wav
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Sounds\correctSolution.wav
+      projectPath: Assets\Sprites\Sounds\correctSolution.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Sounds\discarded.wav
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Sounds\discarded.wav
+      projectPath: Assets\Sprites\Sounds\discarded.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Sounds\gameFinished.wav
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Sounds\gameFinished.wav
+      projectPath: Assets\Sprites\Sounds\gameFinished.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Sounds\selected.wav
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Sounds\selected.wav
+      projectPath: Assets\Sprites\Sounds\selected.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Sounds\wrongSolution.wav
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Assets\Sprites\Sounds\wrongSolution.wav
+      projectPath: Assets\Sprites\Sounds\wrongSolution.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\Assembly-CSharp.dll.hash
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\Assembly-CSharp.dll.hash
+      projectPath: Temp\Assembly-CSharp.dll.hash
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\CompilationLog.txt
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\CompilationLog.txt
+      projectPath: Temp\CompilationLog.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-0494471a93d111847a2fa7ae737dd5f6
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-0494471a93d111847a2fa7ae737dd5f6
+      projectPath: Temp\UnityTempFile-0494471a93d111847a2fa7ae737dd5f6
+      originalPath: Temp\UnityTempFile-0bceb58216e93294d9de1dc6f703486e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-3fee68bd9cf3c1943b643c3c102ffd6b
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-3fee68bd9cf3c1943b643c3c102ffd6b
+      projectPath: Temp\UnityTempFile-3fee68bd9cf3c1943b643c3c102ffd6b
+      originalPath: Temp\UnityTempFile-63e8338c03f15fc45aa0532216402fae
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-43595a791af91954a83fe71ba8db17c9
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-43595a791af91954a83fe71ba8db17c9
+      projectPath: Temp\UnityTempFile-43595a791af91954a83fe71ba8db17c9
+      originalPath: Temp\UnityTempFile-6d3f2dae81715cc43b265405ff4b7119
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-48af8c033adde7545811b6c5ce596b90
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-48af8c033adde7545811b6c5ce596b90
+      projectPath: Temp\UnityTempFile-48af8c033adde7545811b6c5ce596b90
+      originalPath: Temp\UnityTempFile-9144a7bac45416d47b0df17dfa17b8b8
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-4ccf618887194674f9ecbd6ebbf6b936
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-4ccf618887194674f9ecbd6ebbf6b936
+      projectPath: Temp\UnityTempFile-4ccf618887194674f9ecbd6ebbf6b936
+      originalPath: Temp\UnityTempFile-98408d8787e98984e81ef8f52fa9bf7a
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-563bfa7af806ae24f93878df9d0a95a0
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-563bfa7af806ae24f93878df9d0a95a0
+      projectPath: Temp\UnityTempFile-563bfa7af806ae24f93878df9d0a95a0
+      originalPath: Temp\UnityTempFile-99c20f3cf0821564b83ac04c3324c97e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-58a6147b74a2f7f43a350957792e97dc
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-58a6147b74a2f7f43a350957792e97dc
+      projectPath: Temp\UnityTempFile-58a6147b74a2f7f43a350957792e97dc
+      originalPath: Temp\UnityTempFile-a8c839f552c140e4bae2630c6ef2e2f3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-a0cfb096c5dd9984390ea2d0dd5ccc34
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-a0cfb096c5dd9984390ea2d0dd5ccc34
+      projectPath: Temp\UnityTempFile-a0cfb096c5dd9984390ea2d0dd5ccc34
+      originalPath: Temp\UnityTempFile-b35c3201acc13b84f82f859631990888
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-c7b73c461549ed54b9b7cd62b126bc87
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-c7b73c461549ed54b9b7cd62b126bc87
+      projectPath: Temp\UnityTempFile-c7b73c461549ed54b9b7cd62b126bc87
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-d947619e7a9c1d14fa1ec1aafb2b0be4
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-d947619e7a9c1d14fa1ec1aafb2b0be4
+      projectPath: Temp\UnityTempFile-d947619e7a9c1d14fa1ec1aafb2b0be4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-eecf8f1c26023c6478cd547f4d7d410a
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-eecf8f1c26023c6478cd547f4d7d410a
+      projectPath: Temp\UnityTempFile-eecf8f1c26023c6478cd547f4d7d410a
+      originalPath: Temp\UnityTempFile-bceff79dc92ffb44d96651cf4b77f252
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f81fd87ff1635564aba11ebc69ff8fa1
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\Temp\UnityTempFile-f81fd87ff1635564aba11ebc69ff8fa1
+      projectPath: Temp\UnityTempFile-f81fd87ff1635564aba11ebc69ff8fa1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\alvar\UnityProjects\World Of Recipes\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 3d3b63afb961805e5b24d846ae5e0fc81d6ff36c
     mergeA: 
     mergeB: 

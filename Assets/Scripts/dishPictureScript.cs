@@ -33,8 +33,8 @@ public class dishPictureScript : MonoBehaviour
             this.gameObject.transform.localScale = aumentedScale;
 ;           clicked = true;
             filter.enabled = true;
-            gameManager.hideAIbutton();
-            gameManager.hideHintsText();
+            gameManager.hideTexts();
+
         }
         else
         {
@@ -42,8 +42,8 @@ public class dishPictureScript : MonoBehaviour
             this.gameObject.transform.localPosition = dishPosition;
             clicked = false;
             filter.enabled = false;
-            gameManager.hideAIbutton();
-            gameManager.hideHintsText();
+            gameManager.hideTexts();
+
         }
         //Debug.Log("u clicked" + clicked);
     }

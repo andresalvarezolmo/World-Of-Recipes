@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     int randomSelectedIngredient;
     int hintsLeft = 1;
     public Text HintsText;
-
+    public Text Instructions;
     //Sounds
     public AudioSource wrongSolution;
     public AudioSource correctSolution;
@@ -65,12 +65,12 @@ public class GameManager : MonoBehaviour
             Appliances[j] = ApplianceHolder.transform.GetChild(j).gameObject;
             //Debug.Log(ApplianceHolder.transform.GetChild(j).gameObject);
         }
-        
+        Debug.Log(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"), 200));
 
     }
     IEnumerator ExampleCoroutine(GameObject myObject)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         myObject.GetComponent<Renderer>().material.color = Color.white;
     }
 
@@ -111,14 +111,12 @@ public class GameManager : MonoBehaviour
                 if (int.Parse(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"), 200)) == 6)
                 {
                     gameCompleted.SetActive(true);
-                    hideHintsText();
                     gameFinished.Play();
                 }
 
                 else
                 {
                     gameOverScreenCorrect.SetActive(true);
-                    hideHintsText(); 
                     correctSolution.Play();
                 }
             }
@@ -128,7 +126,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("ingredientCounter" + ingredientCounter);
                 Debug.Log("applianceCounter" + applianceCounter);
                 gameOverScreenWrong.SetActive(true);
-                hideHintsText();
+                wrongSolution.Play();
                 wrongSolution.Play();
             }
         }
@@ -160,15 +158,14 @@ public class GameManager : MonoBehaviour
         HintsText.text = "Hints left:" + hintsLeft;
         if (hintsLeft < 1) HintsText.color = Color.red;
     }
-    public void hideHintsText()
+    public void hideTexts()
     {
         if (HintsText.gameObject.activeSelf) HintsText.gameObject.SetActive(false);
         else HintsText.gameObject.SetActive(true);
-    }
-    public void hideAIbutton()
-    {
-        if(AIButton.activeSelf) AIButton.SetActive(false);
+        if (AIButton.activeSelf) AIButton.SetActive(false);
         else AIButton.SetActive(true);
+        if (Instructions.gameObject.activeSelf) Instructions.gameObject.SetActive(false);
+        else Instructions.gameObject.SetActive(true);
     }
 
     public void selectedCorrectIngredient()
