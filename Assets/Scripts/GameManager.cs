@@ -40,6 +40,11 @@ public class GameManager : MonoBehaviour
     int hintsLeft = 1;
     public Text HintsText;
 
+    //Sounds
+    public AudioSource wrongSolution;
+    public AudioSource correctSolution;
+    public AudioSource gameFinished;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -103,9 +108,19 @@ public class GameManager : MonoBehaviour
                     Debug.Log("Next level had already been unlocked");
                 }
 
-                if(int.Parse(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"),200)) == 6) gameCompleted.SetActive(true);
+                if (int.Parse(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"), 200)) == 6)
+                {
+                    gameCompleted.SetActive(true);
+                    hideHintsText();
+                    gameFinished.Play();
+                }
 
-                else gameOverScreenCorrect.SetActive(true);
+                else
+                {
+                    gameOverScreenCorrect.SetActive(true);
+                    hideHintsText(); 
+                    correctSolution.Play();
+                }
             }
             else
             {
@@ -113,6 +128,8 @@ public class GameManager : MonoBehaviour
                 Debug.Log("ingredientCounter" + ingredientCounter);
                 Debug.Log("applianceCounter" + applianceCounter);
                 gameOverScreenWrong.SetActive(true);
+                hideHintsText();
+                wrongSolution.Play();
             }
         }
         else
@@ -130,7 +147,7 @@ public class GameManager : MonoBehaviour
         if(hintsLeft > 0)
         {
             randomSelectedIngredient = Random.Range(0, Ingredients.Length);
-            Debug.Log(randomSelectedIngredient);
+            //Debug.Log(randomSelectedIngredient);
             Ingredients[randomSelectedIngredient].GetComponent<Renderer>().material.color = Color.green;
             StartCoroutine(ExampleCoroutine(Ingredients[randomSelectedIngredient]));
             hintsLeft--;

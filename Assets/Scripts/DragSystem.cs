@@ -26,6 +26,9 @@ public class DragSystem : MonoBehaviour
 
     GameManager gameManager;
 
+    public AudioSource selectedItemSound;
+    public AudioSource unSelectedItemSound;
+
     private void Awake()
     {
         gameManager = GameObject.Find("Scripter").GetComponent<GameManager>();
@@ -70,6 +73,7 @@ public class DragSystem : MonoBehaviour
         {
             selected = false;
             sprite.color = originalColor;
+            unSelectedItemSound.Play();
 
 
             if (this.type == "ingredient")
@@ -105,7 +109,7 @@ public class DragSystem : MonoBehaviour
             sprite.color = new Color(0.3f, 0.4f, 0.6f);
             //Debug.Log(this.shouldBeIncluded); 
             selected = true;
-
+            selectedItemSound.Play();
 
             //check type of selected item
             if (this.type == "ingredient")
