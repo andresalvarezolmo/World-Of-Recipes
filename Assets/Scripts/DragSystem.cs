@@ -25,7 +25,7 @@ public class DragSystem : MonoBehaviour
     private Vector3 originalPosition;
 
     GameManager gameManager;
-
+    //audio files for selected and unselected objects
     public AudioSource selectedItemSound;
     public AudioSource unSelectedItemSound;
 
@@ -56,6 +56,7 @@ public class DragSystem : MonoBehaviour
         }
     }
 
+    //method to check when user clicks on an object
     private void OnMouseDown()
     {
         //drag sprite if has not been selected yet
@@ -79,7 +80,6 @@ public class DragSystem : MonoBehaviour
             if (this.type == "ingredient")
             {
                 gameManager.DecreaseIngredientCounter(1);
-                //CounterManager.counterManager.DecreaseIngredientCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Deselected correct Ingredient");
@@ -89,7 +89,6 @@ public class DragSystem : MonoBehaviour
             else if (this.type == "appliance")
             {
                 gameManager.DecreaseApplianceCounter(1);
-                //CounterManager.counterManager.DecreaseApplianceCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Deselected correct Appliance");
@@ -99,6 +98,7 @@ public class DragSystem : MonoBehaviour
         }
     }
 
+    //method used to check when the click button is lifted
     private void OnMouseUp()
     {
         isMoving = false;
@@ -115,7 +115,6 @@ public class DragSystem : MonoBehaviour
             if (this.type == "ingredient")
             {
                 gameManager.RaiseIngredientCounter(1);
-                //CounterManager.counterManager.RaiseIngredientCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Selected correct Ingredient");
@@ -125,7 +124,6 @@ public class DragSystem : MonoBehaviour
             else if (this.type == "appliance")
             {
                 gameManager.RaiseApplianceCounter(1);
-                //CounterManager.counterManager.RaiseApplianceCounter(1);
                 if (this.shouldBeIncluded)
                 {
                     //Debug.Log("Selected correct Appliance");

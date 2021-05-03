@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//script used in order to manage the flow of the game
 public class GameManager : MonoBehaviour
 {
+    //objects that store the ingredients and appliances
     public GameObject IngredientHolder;
     public GameObject[] Ingredients;
     public GameObject ApplianceHolder;
@@ -40,12 +42,13 @@ public class GameManager : MonoBehaviour
     int hintsLeft = 1;
     public Text HintsText;
     public Text Instructions;
-    //Sounds
+
+    //Sounds effects
     public AudioSource wrongSolution;
     public AudioSource correctSolution;
     public AudioSource gameFinished;
 
-    // Start is called before the first frame update
+    //Set up variables that keep track of the current state of game
     public void Start()
     {
 
@@ -68,29 +71,28 @@ public class GameManager : MonoBehaviour
         Debug.Log(encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"), 200));
 
     }
+    //coroutine created to generate a delay when the AI button highlights one ingredient in green so 3 seconds later it goes back to its regular color
     IEnumerator ExampleCoroutine(GameObject myObject)
     {
         yield return new WaitForSeconds(3);
         myObject.GetComponent<Renderer>().material.color = Color.white;
     }
 
+    //method that changes the color of the button once the provided solution matches the requirements
     public void checkAmountofIngredients()
     {
         Image imgButton = submitButton.GetComponent<Image>();
         if (ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
         {
-            //Debug.Log("User can submit");
-            //submitButton.color = new Color(255, 255, 255, 255);
             imgButton.color = Color.green;
         }
         else
         {
-            //Debug.Log("User can not submit");
-            //submitButton.color = new Color(255, 0, 0, 255);
             imgButton.color = Color.red;
         }
     }
 
+    //checks if the solution is correct or not
     public void checkSolution()
     {
         if(ingredientCounter == correctIngredients && applianceCounter == correctAppliances)
@@ -136,12 +138,9 @@ public class GameManager : MonoBehaviour
         }
 
     }
-
+    //select one random from the list and highlight for a few seconds
     public void AIMethod()
     {
-        //iterate
-        //check they are included ? add them to the list
-        //select one random from the list and highlight for a few seconds
         if(hintsLeft > 0)
         {
             randomSelectedIngredient = Random.Range(0, Ingredients.Length);
@@ -153,11 +152,14 @@ public class GameManager : MonoBehaviour
         }
         
     }
+
+    //updates the text that announces the number of hints left
     public void updateHintsText()
     {
         HintsText.text = "Hints left:" + hintsLeft;
         if (hintsLeft < 1) HintsText.color = Color.red;
     }
+    //hides elements so the image picture is not covered when moved to center
     public void hideTexts()
     {
         if (HintsText.gameObject.activeSelf) HintsText.gameObject.SetActive(false);
@@ -167,6 +169,8 @@ public class GameManager : MonoBehaviour
         if (Instructions.gameObject.activeSelf) Instructions.gameObject.SetActive(false);
         else Instructions.gameObject.SetActive(true);
     }
+
+    //all this methods below keep track of the selected and unselected ingredients and appliances
 
     public void selectedCorrectIngredient()
     {

@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//script that provides functionality to the level select scene
 public class LevelManagerScript : MonoBehaviour
 {
     public Button[] levelButtons;
-    // Start is called before the first frame update
     private void Start()
     {
         string levelReached = encryptScript.EncryptDecrypt(PlayerPrefs.GetString("LevelReached"),200);
@@ -19,7 +19,7 @@ public class LevelManagerScript : MonoBehaviour
         }
 
     }
-
+    //resets the stored number of unlocked levels so a player can restart the game
     public void resetUnlockedLevels()
     {
         Debug.Log("aqui tamos");
@@ -27,6 +27,9 @@ public class LevelManagerScript : MonoBehaviour
         SceneManager.LoadScene(1);
 
     }
+
+    //these methods are used to load each different level's scene
+
     public void runSpanishLevel()
     {
         SceneManager.LoadScene(2);

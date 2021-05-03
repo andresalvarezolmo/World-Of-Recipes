@@ -7,6 +7,7 @@ using System.IO;
 using System.Text;
 
 //source of the XOR algorithm: https://www.codingame.com/playgrounds/11117/simple-encryption-using-c-and-xor-technique
+//please refer to the report to see the explanation of how this algorithm works
 public class encryptScript : MonoBehaviour
 {
     public static string EncryptDecrypt(string szPlainText, int szEncryptionKey)
